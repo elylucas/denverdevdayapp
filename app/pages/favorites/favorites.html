@@ -1,0 +1,18 @@
+<ion-navbar *navbar>
+    <ion-title>Favorites</ion-title>
+</ion-navbar>
+
+<ion-content padding class="sessions">
+
+    <p *ngIf="sessions.length == 0">
+        There are no sessions in your favorites. Go browse some sessions and add them to your favorites for them to show up here.
+    </p>
+
+    <ion-list *ngIf="sessions.length > 0">
+        <button ion-item *ngFor="let session of sessions" tappable (click)="goToDetail(session)">
+            <h2>{{ session.title }}</h2>
+            <h3>{{ session.speaker }}</h3>
+            <p>{{ session.time }} - {{ session.room }}</p>
+        </button>
+    </ion-list>
+</ion-content>

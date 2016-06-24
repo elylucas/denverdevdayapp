@@ -1,0 +1,24 @@
+<ion-navbar *navbar>
+    <ion-title>Session Detail</ion-title>
+</ion-navbar>
+
+<ion-content>
+    <ion-card>
+        <div class="session-header">
+            <img src="images/speakers/{{session.speakerId}}.png"/>
+            <div class="session-info-container">
+                <div class="session-info">
+                    <div class="title">{{ session.title }}</div>
+                    <div class="speaker-name"><a (click)="goToSpeaker(session.speakerId)">{{ session.speaker }}</a></div>
+                    <div class="time-and-place">{{ session.time }} - {{ session.room }}</div>
+                </div>                
+            </div>  
+        </div>
+        <ion-card-content>
+            <div class="abstract">
+                {{ session.abstract }}
+            </div>
+            <button block (click)="toggleFavorite(session)">{{ isFavorite(session) ? 'Remove from Favorites' : 'Add to Favorites' }}</button>
+        </ion-card-content>
+    </ion-card>
+</ion-content>  

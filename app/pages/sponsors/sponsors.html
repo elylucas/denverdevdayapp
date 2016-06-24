@@ -1,0 +1,15 @@
+<ion-navbar *navbar>
+    <ion-title>Sponsors</ion-title>
+</ion-navbar>
+
+<ion-content>
+    <ion-card *ngFor="let sponsor of sponsors">
+        <a href="{{sponsor.link}}" target="_system"><img src="images/sponsors/{{sponsor.id}}.png" /></a>
+        <ion-card-content>
+            <ion-card-title>
+                {{ sponsor.name }}
+            </ion-card-title>
+        </ion-card-content>
+
+    </ion-card>
+</ion-content>

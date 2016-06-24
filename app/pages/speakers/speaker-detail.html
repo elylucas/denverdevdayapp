@@ -1,0 +1,40 @@
+<ion-navbar *navbar>
+    <ion-title>Speaker Detail</ion-title>
+</ion-navbar>
+
+
+<ion-content>
+    <ion-card>
+        <div class="speaker-header">
+            <img src="images/speakers/{{speaker.id}}.png" />
+            <div class="speaker-info-container">
+                <div class="speaker-info">
+                    <div class="name">{{speaker.name }}</div>
+                    <div class="twitter" *ngIf="speaker.twitter">
+                        <a href="{{speaker.twitter }}" target="_system">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="blog" *ngIf="speaker.blog">
+                        <a href="{{speaker.blog }}" target="_system">
+                            <ion-icon name="logo-rss"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ion-card-content>
+            <div class="bio">
+                {{ speaker.bio }}
+            </div>
+            <div class="sessions">
+                <h3>Sessions</h3>
+                <ul>
+                    <li *ngFor="let session of sessions">
+                        <a (click)="goToSession(session)">{{ session.title }}</a>
+                    </li>
+                </ul>
+            </div>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
