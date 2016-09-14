@@ -1,0 +1,16 @@
+<ion-header class="opaque">
+  <ion-navbar>
+    <ion-title>Speakers</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content fulllscreen padding class="speaker">
+  <ion-list>
+    <button ion-item *ngFor="let speaker of speakers" tappable (click)="goToDetail(speaker)">
+        <ion-avatar item-left>
+            <img src="images/speakers/{{speaker.id}}.png"/>
+        </ion-avatar>
+      <h2>{{ speaker.name }}</h2>
+    </button>
+  </ion-list>
+</ion-content>

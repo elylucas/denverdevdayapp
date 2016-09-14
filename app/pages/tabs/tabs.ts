@@ -1,22 +1,19 @@
-import {Component} from '@angular/core';
-import {HomePage} from '../home/home';
-import {AboutPage} from '../about/about';
-import {ContactPage} from '../contact/contact';
+import {Component} from "@angular/core";
+import {Sessions} from '../sessions/sessions';
+import {Speakers} from '../speakers/speakers';
+import {Favorites} from '../favorites/favorites';
+import {About} from '../about/about';
+import {Sponsors} from '../sponsors/sponsors';
 
 @Component({
   templateUrl: 'build/pages/tabs/tabs.html'
 })
 export class TabsPage {
-
-  private tab1Root: any;
-  private tab2Root: any;
-  private tab3Root: any;
-
-  constructor() {
-    // this tells the tabs component which Pages
-    // should be each tab's root Page
-    this.tab1Root = HomePage;
-    this.tab2Root = AboutPage;
-    this.tab3Root = ContactPage;
-  }
+  // this tells the tabs component which Pages
+  // should be each tab's root Page
+  sessionsTab: any = Sessions;
+  speakersTab: any = Speakers;
+  favoritesTab: any = Favorites;
+  sponsorsTab: any = Sponsors;
+  aboutTab: any = About;
 }

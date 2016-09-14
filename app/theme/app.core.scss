@@ -7,8 +7,16 @@
 // By default each design mode includes these shared imports.
 // App Shared Sass variables belong in app.variables.scss.
 
+@import "../pages/sessions/sessions";
+@import "../pages/speakers/speakers";
 @import "../pages/about/about";
+@import "../pages/tabs/tabs";
 
-@import "../pages/contact/contact";
+.opaque {
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
 
-@import "../pages/home/home";
+.opaque .toolbar-background {
+  background-color: rgba(#f8f8f8, 0.95);
+}
