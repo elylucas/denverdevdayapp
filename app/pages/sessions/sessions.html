@@ -1,8 +1,10 @@
-<ion-navbar *navbar>
-    <ion-title>Sessions</ion-title>
-</ion-navbar>
+<ion-header class="opaque">
+    <ion-navbar>
+        <ion-title>Sessions</ion-title>
+    </ion-navbar>
+</ion-header>
 
-<ion-content padding class="sessions">
+<ion-content fullscreen padding class="sessions">
     <ion-list>
         <button ion-item *ngFor="let session of sessions" tappable (click)="goToDetail(session)">
             <h2>{{ session.title }}</h2>

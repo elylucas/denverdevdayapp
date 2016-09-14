@@ -15,25 +15,25 @@ export class About {
     }
 
     loadMap() {
-        console.log('map')
-        let latLng = new google.maps.LatLng(39.6307643, -104.9038176);
-        let mapOptions = {
-            center: latLng,
-            zoom: 15,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
+        // console.log('map')
+        // let latLng = new google.maps.LatLng(39.6307643, -104.9038176);
+        // let mapOptions = {
+        //     center: latLng,
+        //     zoom: 15,
+        //     mapTypeId: google.maps.MapTypeId.ROADMAP
+        // }
 
-        this.map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        // this.map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-        let marker = new google.maps.Marker({
-            map: this.map,
-            animation: google.maps.Animation.DROP,
-            position: this.map.getCenter()
-        });
+        // let marker = new google.maps.Marker({
+        //     map: this.map,
+        //     animation: google.maps.Animation.DROP,
+        //     position: this.map.getCenter()
+        // });
 
-        let content = "<h4>7595 Technology Dr., Suite 400<br> Denver, CO 80237</h4>";
+        // let content = "<h4>7595 Technology Dr., Suite 400<br> Denver, CO 80237</h4>";
 
-        this.addInfoWindow(marker, content);
+        // this.addInfoWindow(marker, content);
     }
 
 }

@@ -4,6 +4,7 @@ import {StatusBar} from 'ionic-native';
 import {TabsPage} from './pages/tabs/tabs';
 import DataService from './services/data.service';
 import FavoritesService from './services/favorites.service';
+import 'rxjs/Rx';
 
 @Component({
   template: '<ion-nav [root]="rootPage"></ion-nav>',
