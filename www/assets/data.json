@@ -1,0 +1,601 @@
+{
+  "speakers": [
+    {
+      "id": 1,
+      "name": "Laurie Atkinson",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/atkinsonlaurie",
+      "twitter": "http://twitter.com/JoyfulCoder",
+      "bio": "Laurie Atkinson is a senior consultant with Microsoft specializing in .NET, HTML5, JavaScript, and Angular development. Her emphasis is on training and support for developers, which involves custom workshops, webcasts, programming assistance, proof-of-concepts, and architectural advising.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/dcdf3795d3ed401aac99c97aa92e9ceb/LaurieAtkinson.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Grigoriy Belenkiy",
+      "company": "",
+      "blog": "http://www.linkedin.com/in/grishace",
+      "twitter": "http://twitter.com/grishace",
+      "bio": "Software engineer at S&P Global (NYSE: SPGI) with 20 years of experience in software craftsmanship from Perl web-applications in 90's through classic ASP into C#/ASP.NET in early 2000, and C# desktop applications in 05's. Now polyglot developer using C#/Java/Scala and F#. Active member of the Denver Visual Studio User Group from 2007.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/d0191fbd6dfd4d3cac5e9d7f34051316/Grigoriy.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Martin L Buchanan",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/martin-buchanan-4453153",
+      "bio": "Martin has 40 years of development experience including software engineering, technical writing, QA, management, and source code review. He has written more than a hundred thousand lines of code, used 20 different programming languages, and reviewed more than a million lines of source code.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/8001799006bc473487d15e3b5f757139/MartinBuchanan.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ben Currier",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/benjamincurrier",
+      "twitter": "http://twitter.com/ExcelExposure",
+      "bio": "https://www.linkedin.com/in/benjamincurrier",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/aaf0a1b6451f42a0971f83d99ad0f676/BenCurrier.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Kathleen Dollard",
+      "company": "",
+      "blog": "http://blogs.msmvps.com/kathleen/",
+      "twitter": "http://twitter.com/kathleendollard",
+      "bio": "Kathleen Dollard wants to teach you to code better. She wants to teach you more about the tools you use every day and the tools, and maybe even languages, you aren’t yet using. Coding is her passion and debugging is her challenge - you’ll be happier if you do both better. Kathleen has written dozens of articles, spoken at conferences and user groups around the world, and pushes Microsoft to respond to your real world needs as a long time MVP. She’s the Director of Engineering for Real  and you can check out her video courses at www.pluralsight.com and www.wintellectnow.com.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/1a4ffe5ce4924313bea38cac00a19985/Kathleen_Dollard_200x200.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Dwight Goins",
+      "company": "",
+      "blog": "http://dgoins.wordpress.com/",
+      "twitter": "http://twitter.com/dngoins",
+      "bio": "Dwight Goins is the the Chief Algorithms Officer (CAO)  and Lead Emerging Experience Consultant at Dwight Goins, Inc located in Colorado Springs, CO. Dwight spends most of his time leading his team to implement Connected Systems and solutions using Agile methodologies with Fortune 500 clients such as AIG, JM Family, and Equinix. In his night life, he leads a team of developers creating medical based applications for Medical Cyber World, Inc. using unique implementations with IoT devices such as the Kinect for Windows, Raspberry Pi, Microsoft Band and Machine Learning. He is an avid Linux User (Gentoo being his favorite flavor), Open source contributor, as well as a InfoSec Certified Ethical Hacker Instructor. Along with Open source teaching, he maintains an active MCT (Microsoft Certified Trainer) license, and holds the MCPD, MCSD, Windows 10 UWP Developer certifications, as well as a Certified Data Recovery Professional (CRDP) license. In his spare time he finds a way to take care of his 3 beloved daughters,...",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/1ef6b533284148d79bcce1eab493e128/Dwight%20Goins.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Scott Golightly",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/scott-golightly-469759",
+      "twitter": "http://twitter.com/scott_golightly",
+      "bio": "Scott is a Microsoft Regional Director with over 20 years experience helping clients to create solutions to business problems with various technologies. He is an experienced speaker and trainer. He has taught classes around the globe on various technical and business related topics. Scott has presented at numerous code camps, Tech Ed breakout sessions, and Tech Ready.Scott has held many certifications including Certified PowerBuilder Developer, Certified Sybase Instructor, MCP, MCSD, and MCT.",
+      "imgUrl": "http://www.grokdev.com/ScottGolightly.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Ben Hoelting",
+      "company": "Aspenware",
+      "blog": "https://www.linkedin.com/in/ben-hoelting-aa09b75",
+      "twitter": "http://twitter.com/benhnet",
+      "bio": "Senior Technologist, C# MVP.  He graduated from Colorado State University in 1997 with a BS in Computer Information Systems and a Minor in Computer Science.  Ben joined the IT industry in 1996 as an intern and has worked with .NET since its inception back in 2001.  This has given him the experience of a senior level full stack .NET developer.  He is an experienced speaker and presents at the Visual Studio Live conferences all around the country. He loves sharing his experiences with developing software.  Ben is a Microsoft Certified Technology Specialist (MCTS) for Web and Windows .NET 4.0. His blog is at http://www.benhblog.com and his twitter stream is at http://twitter.com/benhnet.  Finally, Ben is very involved in the local .NET community and is the leader of the South Colorado .NET User Group.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/ed7fd83dbc0a49e18a4b9a5525bed77b/Hoelting-C.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Shawn Kendrot",
+      "company": "",
+      "blog": "http://visuallylocated.com/",
+      "twitter": "http://twitter.com/skendrot",
+      "bio": "Shawn has been a .NET developer for about 10 years. He has spent the last two years building web sites in Azure. Shawn in a Microsoft MVP that enjoys blogging at http://VisuallyLocated.com when not spending time with his kids. You can follow Shawn on Twitter @skendrot",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/624d4ab8a430446383c2a39b5f6e04b3/Shawn%20Kendrot.png"
+    },
+    {
+      "id": 10,
+      "name": "Rob Koch",
+      "company": "",
+      "blog": "http://blog.seerobcode.com/",
+      "twitter": "http://twitter.com/robcube",
+      "bio": "Rob Koch currently works at Platts the premier spot to get your natural gas and other energy data from. With over 18 years of experience, he's been through some ups and downs of software development. (mostly ups!)",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/9d03b12a87364de0877a9e7aafbdc598/RobKoch.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Crystal Long",
+      "company": "",
+      "blog": "http://msaccessgurus.com/freetips.html",
+      "twitter": "http://twitter.com/strive4peace123",
+      "bio": "Crystal Long teaches and develops with Microsoft Access (desktop and web) and is also an expert using automation with Excel and other Microsoft Office products.  She specializes in training while connecting and team-developing ... \"Together, we can build something better than either of us can do alone.\"  Crystal is a Microsoft MVP (10+ years) for Access.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/8c7c8744063c479590b185d664799067/Crystal_face_220.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Ely Lucas",
+      "company": "",
+      "blog": "http://www.elylucas.net/",
+      "twitter": "http://twitter.com/elylucas",
+      "bio": "Ely Lucas is a web and mobile developer in Denver and helps businesses create amazing software.   Follow him on the Twitters @elylucas or the Blogs at www.elylucas.net.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/d9fd6af15ee6486b9085d6ac7a165493/ElyLucas.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Donald Lutz",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/donald-lutz-5a9b0b2?trk=hp-identity-name",
+      "twitter": "http://twitter.com/DamenStar",
+      "bio": "Donald is the CTO of Technetronic Solutions, a Microsoft Partner, and has focused on creating solutions using microservices, actors, and Federated Identity using ASP.NET Core and Docker.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/af962f4b149648459ca54ce34e1eaf22/DonaldLutz.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Daren May",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/darenmay",
+      "twitter": "http://twitter.com/darenmay",
+      "bio": "Daren May is the President and co-founder of Crank211 — a company that specializes in designing and building next-level digital experiences. Daren has written and presented a number of MVAs and spoken at Microsoft Ignite. He has leveraged Microsoft technologies since the beta versions of Visual Studio .NET and has been developing XAML-based solutions since the heady days of “Avalon” (the early name for WPF).",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/8b677cc42fbc4fd784a36673bddfbddb/Daren%20May.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Chris McHenry",
+      "company": "",
+      "blog": "http://cmchenry.com/",
+      "twitter": "http://twitter.com/camchenry",
+      "bio": "Chris McHenry is a software developer living in the foothills of Colorado.  He is currently VP of Technology for Integro, an industry leading software and services provider of Information Governance solutions.  His main focus is on the development of an innovative Information Governance software platform.   He leads a high caliber team of Dev and QA professionals using Scrum, Visual Studio, and TFS.  His current passion (obsession?) is applying Machine Learning technology to improve the user experience with everyday software applications.  He holds a patent for leveraging classification technology with user oversight to better manage and defensibly dispose of content.  His favorite new technologies are working with are the R programming language and Microsoft's Azure Machine Learning service.  He has deep expertise designing and developing software products on top of email platforms and enterprise content management systems such as Microsoft Exchange, Lotus Domino, Sharepoint, OneDrive, IBM FileNet, and other...",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/cfb0a1711e9f40e29eda8019e904ed40/CMcHenry.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Jonathan McKinney",
+      "company": "",
+      "blog": "http://blog.ucomsgeek.com/",
+      "twitter": "http://twitter.com/ucomsgeek",
+      "bio": "\"Senior Unified Communications Architect at Time2Market, a Blogger at “ucomsGeek Blog“, and a leader of the Colorado Unified Communications User Group (COUCUG).",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/0c1554e1d2674e35b722e3f9155213b5/Jonathan%20McKinney.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Geoff Morgan",
+      "company": "Crank211",
+      "blog": "https://www.linkedin.com/in/geoffmmorgan",
+      "twitter": "http://twitter.com/geoffmmorgan",
+      "bio": "Geoff Morgan has been developing in Microsoft tech since WPF. In that time he has ventured into many stacks such as Silverlight, Unity, ASP.NET and UWP. Geoff has also given instructional talks on Microsoft Virtual Academy and Denver Dev Days.  He currently works as a senior developer with Crank211.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/8c8da030ab4545528dcb93c390a29be4/GeoffMorgan.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Vui Nguyen",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/vuinguyen",
+      "twitter": "http://twitter.com/sunfishgurl",
+      "bio": "Professional software developer with over 15 years experience building a wide range of applications, including desktop, enterprise, web, and mobile. For the past few years, I've been a cross platform mobile developer using Titanium, with several published apps in the Google Play and App Store. Currently learning native iOS development using Swift, and working on Internet of Things projects. My team won 1st place at the Intel Edison Roadshow hackathon in Denver this past April.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/d6121e0c1e2d431eb1af62eded67b92f/VuiNguyen.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Paul Nielsen",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/paulnielsensql",
+      "bio": "Paul Nielsen is founder of Tejon Technologies, offering TejonDB – a configurable, object-oriented, graph database built on SQL Server. Paul is also the author of the best selling SQL Server 2008 Bible, a 12x Data Platform MVP, and has presented seminars, training courses, and conference sessions in the US, Canada, UK, and Europe.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/d1def7d14da947a88a012ba74f9df57c/PaulNielsen.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Elizabeth Schneider",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/elizabeth-schneider-b4aa2610",
+      "twitter": "http://twitter.com/mozts",
+      "bio": "Elizabeth Schneider is a self-taught C# developer that has contributed to open source projects like ZendeskApi_v2, Google Checkout API for .net, N2 CMS, QLNET.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/519a6dd1b776411aa27a649fcddcc4bb/ElizabethSchneider.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Aaron Scribner",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/aaron-scribner-96b438a4",
+      "bio": " ",
+      "imgUrl": "https://denverdevday.eventday.com/content/images/blank-person.png"
+    },
+    {
+      "id": 22,
+      "name": "Rinat Shagisultanov",
+      "company": "",
+      "blog": "https://www.linkedin.com/in/rshagisultanov",
+      "twitter": "http://twitter.com/rinatsh",
+      "bio": "\"National Architect, App Plat Group, Neudesic20+ years of experience in Custom App DevHQ: Irvine, CA | Regional: DenverInterests: Cloud (Azure, AWS), Integration, DevOps, IoT, Intelligent Systems/AI\"",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/8cec4d3a6a7244309ac14207e842f04e/Rinat.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Trevor Sullivan",
+      "company": "",
+      "blog": "https://trevorsullivan.net/",
+      "twitter": "http://twitter.com/pcgeek86",
+      "bio": "Trevor Sullivan is a Microsoft MVP for Windows PowerShell automation, and a passionate cloud architect and trainer, focused on the Microsoft Azure public cloud platform. You can find Trevor at a variety of conferences, user groups, and online events.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/4eb5ee10aefb42dfb44cf74a460f43ec/Trevor%20Sullivan.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Mike Triplett",
+      "company": "",
+      "bio": "Mike started with ASP.NET 1.0 in 2002.  Since that time, he has worked mostly as a consultant for clients ranging from small startups to Fortune 500 & federal government clients focusing on intranet browser based workflow and case management applications.  For the past five years, he has focused on e-commerce.  In his spare time, Mike enjoys a diverse mix of outdoor activities that take him into the mountains of Colorado.",
+      "imgUrl": "https://denverdevday.eventday.com/content/images/blank-person.png"
+    },
+    {
+      "id": 25,
+      "name": "Jason Turner",
+      "company": "",
+      "blog": "http://emptycrate.com/",
+      "twitter": "http://twitter.com/lefticus",
+      "bio": "Jason is an independent contractor who has been programming professionally for over 15 years. Since 2010 he's specialized in cross platform development, scripting of C++ libraries, and automated testing and code quality analysis. He has spoken at CppCon in Bellevue, Washington and C++Now in Aspen, Colorado. And, he is the co-host of CppCast, the podcast for C++ developers. He's the co-creator and maintainer of the embedded scripting language for C++, ChaiScript , and author and curator of the forkable coding standards document C++ Best Practices.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/1b778cea6c3246269f0aed325cb3c735/Jason%20Turner.png"
+    },
+    {
+      "id": 26,
+      "name": "William Wegerson",
+      "company": "",
+      "blog": "http://omegacoder.com/",
+      "twitter": "http://twitter.com/OmegaMan",
+      "bio": "William Wegerson is a .Net MVP who has been active in the industry for many years. He loves developing in as much as sharing thoughts and technologies with the community as a whole.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/f506eb0ffc094759becad21103dedd9b/Wegerson.jpg"
+    },
+    {
+      "id": 27,
+      "name": "David Yack",
+      "company": "",
+      "blog": "http://blog.davidyack.com/",
+      "twitter": "http://twitter.com/davidyack",
+      "bio": "David Yack is the CTO of Colorado Technology Consultants based in Colorado. He is a Microsoft Regional Director and a Microsoft MVP. As a senior hands’ on technology and business consultant with over 20 years of industry experience, David enjoys developing applications on the Microsoft platforms, specializing in large system architecture and design. David focus is on helping clients migrate and build new applications on Microsoft technologies, as well as helping to mentor and train their staffs. David is a is a frequent speaker/trainer at user group, industry events and private company events around the world. Antarctica is the only continent David hasn't been on and he is accepting invitations. David has been on the author team of multiple .NET related books including the book CRM as a Rapid Development Platform (TheCRMBook.com) and CRM Field Guide . He lives in Colorado Springs with his wife and two children. You can read his blogs at blog.davidyack.com and crm.davidyack.com .",
+      "imgUrl": "http://extremecrm.com/DesktopModules/ExtremeCRM/Speaker/images/david-yack-v1.jpg"
+    },
+    {
+      "id": 28,
+      "name": "George Young",
+      "company": "",
+      "bio": "George has worked as a software developer for the past two decades, including twelve at Microsoft. He is currently an independent consultant (Dawson Butte Software) living at 7000 feet in Larkspur, Colorado, where he works primarily on .NET applications.",
+      "imgUrl": "https://az118040.vo.msecnd.net/assets/45d9639859ed40a0a2978ac90becde71/speaker/4426ebac9fc74c9bb31f512492fdfd7f/GeorgeYoung.jpg"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "title": "Building Single Page Web Applications Using Aurelia.js and the MVVM Pattern",
+      "speaker": "Ben Hoelting",
+      "speakerId": 8,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        XAML developers love the Model-View View-Model (MVVM) pattern. Many JavaScript frameworks use this pattern for Web-based applications. They take the client side coding model developers are familiar with and provide it to the Web world. Some frameworks like AngularJS force you into certain patterns. Many of us have learned patterns like MVVM and want to leverage that knowledge instead of learning something new. This talk will define the MVVM pattern and the benefits of using it. It will also show how you can use Aurelia and ASP.NET MVC to build responsive, robust applications that feel like desktop applications.  Finally, we will take it one more step and use TypeScript and Aurelia to make developing SPAs even more productive.Objectives/Outcomes: \r\nThe MVVM Pattern \r\nJavaScript frameworks that enable the MVVM Pattern for the Web\r\nHow to wire up Aurelia, TypeScript and ASP.NET MVC\r\n",
+      "time": "9:00 AM",
+      "room": "Room 3 (Pikes Peak)",
+      "roomId": 1
+    },
+    {
+      "id": 2,
+      "title": "Building a better User-Query tool",
+      "speaker": "Paul Nielsen",
+      "speakerId": 19,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Nearly every database application requires some sort of user-defined query capability. In this session, I’ll walk through how we developed our user filter tool from conception and UX mockups to implementation and the more advanced features.",
+      "time": "9:00 AM",
+      "room": "Room 2 (Maroon Bells 2)",
+      "roomId": 2
+    },
+    {
+      "id": 3,
+      "title": "ASP.NET Core and Microservices",
+      "speaker": "Donald Lutz",
+      "speakerId": 13,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Review the core concepts of microservices and how to build and deploy them using ASP.NET Core and NancyFx. Also will review basic devops principles.",
+      "time": "9:00 AM",
+      "room": "Room 1 (Maroon Bells 1)",
+      "roomId": 3
+    },
+    {
+      "id": 4,
+      "title": "Building Mobile Apps with Ionic 2 and Angular 2",
+      "speaker": "Ely Lucas",
+      "speakerId": 12,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Ionic is a open source, hybrid framework used to build mobile applications that can work across multiple platforms with a single codebase.  Ionic 2 is the latest version currently in beta, and is built on top of the amazing Angular 2 framework.  In this session, we will explain what a mobile hybrid app is, how Ionic can be used to build one, and what type of apps are good candidates for Ionic.",
+      "time": "9:00 AM",
+      "room": "Room 4 (Pyramid Peak)",
+      "roomId": 4
+    },
+    {
+      "id": 5,
+      "title": "(Artificial) Super-Intelligence: Promises and Risks and Why Does It Matter to Dev",
+      "speaker": "Rinat Shagisultanov",
+      "speakerId": 22,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        AI: What? Where?! When?!! How?!!!Promises vs. RisksAI – AGI – ASIGenetic Algorithm DemoQ & AResources",
+      "time": "10:15 AM",
+      "room": "Room 2 (Maroon Bells 2)",
+      "roomId": 2
+    },
+    {
+      "id": 6,
+      "title": "Is Conversation the New UI?",
+      "speaker": "Chris McHenry",
+      "speakerId": 15,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        All of a sudden Bots are showing up everywhere.  From the Amazon Echo, to Microsoft's controversial Tay Twitter Bot, it seems like every tech giant is making big investments in this user interaction approach.  At the Build conference this Spring, Microsoft announced the preview of the Bot Framework, a toolkit to help us developers build our very own Bots!  Shortly after at the F8 conference, Facebook announced a toolkit to build Bots on top of its Messenger product.  This has me asking, \"Are bots just the latest fad destined to fall off the cliff of the technology hype cycle or is !!Conversation the New UI!!?\"  There's only one way to know, let's build a Bot and try to answer this question for ourselves!",
+      "time": "10:15 AM",
+      "room": "Room 1 (Maroon Bells 1)",
+      "roomId": 3
+    },
+    {
+      "id": 7,
+      "title": "ASP.NET Core Deep Dive",
+      "speaker": "Elizabeth Schneider",
+      "speakerId": 20,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        A 201 look at asp.net core. We will cover Tag Helpers, configuration, dependency injection, and Docker.  This will in also include a look at the .Net CLI and the changes from DNX.",
+      "time": "10:15 AM",
+      "room": "Room 4 (Pyramid Peak)",
+      "roomId": 4
+    },
+    {
+      "id": 8,
+      "title": "Salary versus Consulting - Why, When and Hows",
+      "speaker": "William Wegerson",
+      "speakerId": 26,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Discuss the differing avenues of getting paid as a developer in the current job market. When should one contract and when should one not. What can one expect.  Bring your own anecdotes to share.",
+      "time": "10:15 AM",
+      "room": "Room 5 (Longs Peak)",
+      "roomId": 5
+    },
+    {
+      "id": 9,
+      "title": "Cross-project Scaffolding",
+      "speaker": "Aaron Scribner",
+      "speakerId": 21,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Generate 80-90% of your code for CRUD application across multiple layers with multi-project T4 scaffolding.",
+      "time": "10:15 AM",
+      "room": "Room 3 (Pikes Peak)",
+      "roomId": 1
+    },
+    {
+      "id": 10,
+      "title": "Xbox One: Universal Windows Apps",
+      "speaker": "Daren May",
+      "speakerId": 14,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Demonstrate the development and deployment of a UWP onto Xbox One.",
+      "time": "11:30 AM",
+      "room": "Room 2 (Maroon Bells 2)",
+      "roomId": 2
+    },
+    {
+      "id": 11,
+      "title": "Save yourself with Service Broker",
+      "speaker": "Rob Koch",
+      "speakerId": 10,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        This session will teach you how to use SQL Server's built-in queuing system where you don't need to build yet another box for MQs. It'll make your app faster, more responsive, and, err, just super cool.",
+      "time": "11:30 AM",
+      "room": "Room 4 (Pyramid Peak)",
+      "roomId": 4
+    },
+    {
+      "id": 12,
+      "title": "PowerApps: A Tour of Microsoft's new data-driven cross-device RAD environment",
+      "speaker": "George Young",
+      "speakerId": 28,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Microsoft PowerApps has just gone into public preview.  Join us as we introduce this new platform and walk through creating a couple of data-driven apps that run on iOS and Windows, as well as the web.",
+      "time": "11:30 AM",
+      "room": "Room 3 (Pikes Peak)",
+      "roomId": 1
+    },
+    {
+      "id": 13,
+      "title": "Introduction to ASP.NET Core 1.0",
+      "speaker": "Scott Golightly",
+      "speakerId": 7,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        ASP .NET Core 1.0 (formerly ASP .NET 5) is a rewrite of the ASP .NET stack. Major changes include a more modular design, cross platform execution (OS X, Linux, and Windows), new configuration options, and a convergence of MVC and WEB API. While there are too many changes to cover in the time we have we will briefly discuss some of the design goals and then drop into code to see how to create your next generation web application with ASP .NET Core 1.0.",
+      "time": "11:30 AM",
+      "room": "Room 1 (Maroon Bells 1)",
+      "roomId": 3
+    },
+    {
+      "id": 14,
+      "title": "C# 6 and C# 7",
+      "speaker": "Kathleen Dollard",
+      "speakerId": 5,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Today, C# 6 helps you write clean concise code. Tomorrow, C# 7 will be the first version of C# developed entirely in the open. See how C# 6 auto-property initializers and getter only auto-properties make code better by offering true immutability. See static members and exception filters give you more control index initializers and expression bodied members simplify your code. Watch await in catch/finally, null-conditional operators, the nameOf operator and string interpolation make code more robust. Then the talk turns to the future and C# 7 where you’ll see which features are in the latest cut of the monthly design meetings.",
+      "time": "1:30 PM",
+      "room": "Room 1 (Maroon Bells 1)",
+      "roomId": 3
+    },
+    {
+      "id": 15,
+      "title": "Cloud Orchestration Using PowerShell and Azure Automation",
+      "speaker": "Trevor Sullivan",
+      "speakerId": 23,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        During this code-focused session, we will leverage the power of the Microsoft Azure Automation platform, and the Azure Resource Manager (ARM) PowerShell module to effectively manage cloud resources, and integrate with external services like GitHub, Slack, and others, using the Webhooks capability that's built into Azure Automation!",
+      "time": "1:30 PM",
+      "room": "Room 4 (Pyramid Peak)",
+      "roomId": 4
+    },
+    {
+      "id": 16,
+      "title": "From 0 to Production in 90 minutes with Azure",
+      "speaker": "Shawn Kendrot",
+      "speakerId": 9,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Ready to take your website into the cloud but not sure how? Come to hear Shawn Kendrot tell us how you can use Azure to create a production ready website. This talk will start with an empty web project and finish with a geo-redundant site publishing from source control, plus a lot more.",
+      "time": "1:30 PM",
+      "room": "Room 3 (Pikes Peak)",
+      "roomId": 1
+    },
+    {
+      "id": 17,
+      "title": "TypeScript: The Future of Front End Web Development",
+      "speaker": "Ben Hoelting",
+      "speakerId": 8,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        TypeScript is the real deal.  Many developers have heard of TypeScript but most have never used it in production. Many C# developers hate JavaScript.  I believe the reason for their hatred has nothing to do with JavaScript but with the lack of tooling and language features.  TypeScript is a language developed by the creators of C# that compiles to JavaScript.  This session will dive into TypeScript and discuss some of the language features it provides on top of normal JavaScript.  Between the IDE enhancements in VS and the language features of TypeScript, you will see that JavaScript development can be fun!Objectives/Outcomes: \r\nA definition of TypeScript.\r\nNew TypeScript Features in VS.\r\nHow to use VS and TypeScript to make production quality applications.\r\n",
+      "time": "1:30 PM",
+      "room": "Room 5 (Longs Peak)",
+      "roomId": 5
+    },
+    {
+      "id": 18,
+      "title": "Machine Learning with F#",
+      "speaker": "Grigoriy Belenkiy",
+      "speakerId": 2,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Machine Learning with F#",
+      "time": "1:30 PM",
+      "room": "Room 2 (Maroon Bells 2)",
+      "roomId": 2
+    },
+    {
+      "id": 19,
+      "title": "Hololens",
+      "speaker": "Dwight Goins",
+      "speakerId": 6,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        This session introduces the Hololens device capabilities to the audience and describes what steps are needed in order to develop cool apps for the Hololens device on Visual Studio .Net, Unity, and DirectX.",
+      "time": "2:45 PM",
+      "room": "Room 1 (Maroon Bells 1)",
+      "roomId": 3
+    },
+    {
+      "id": 20,
+      "title": "Intro to Modern C++",
+      "speaker": "Jason Turner",
+      "speakerId": 25,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        C++ has changed a lot in recent years to become a more expressive and better language. We will cover some of the changes made in C++11, C++14 and C++17 that make safe, succinct programming in C++ easier than it's every been.",
+      "time": "2:45 PM",
+      "room": "Room 3 (Pikes Peak)",
+      "roomId": 1
+    },
+    {
+      "id": 21,
+      "title": "Excel Tips & Tricks for Intermediate Users",
+      "speaker": "Ben Currier",
+      "speakerId": 4,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Going through some of the more important, and lesser known, Excel Tips/Tricks that will help improve the daily lives of intermediate Excel users.",
+      "time": "2:45 PM",
+      "room": "Room 4 (Pyramid Peak)",
+      "roomId": 4
+    },
+    {
+      "id": 22,
+      "title": "Bot Framework and LUIS.AI",
+      "speaker": "David Yack",
+      "speakerId": 27,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        In this session we will take a first look at the Bot framework and LUIS.AI for adding language understanding quickly to your new Bot!",
+      "time": "2:45 PM",
+      "room": "Room 5 (Longs Peak)",
+      "roomId": 5
+    },
+    {
+      "id": 23,
+      "title": "DevOps for everything",
+      "speaker": "Geoff Morgan",
+      "speakerId": 17,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        In this session we will explore how to use Visual Studio Team Services to automate your build and deploy process for nearly any project whether it's on-premises or in the cloud. If your project is Web, Windows, Android, iOS or anything else you'll learn how Visual Studio Team Services can make your life easier.",
+      "time": "2:45 PM",
+      "room": "Room 2 (Maroon Bells 2)",
+      "roomId": 2
+    },
+    {
+      "id": 24,
+      "title": "Free Tools for Microsoft Access",
+      "speaker": "Crystal Long",
+      "speakerId": 11,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        I would like to share some of the free tools I have for Access.  As a long-time developer, I have several tools that document databases and VBA projects.  I also have templates and features that developers can incorporate such as popup calendars and calendar reports.  I also have links with resources for building web databases.  This will be a quick look at several tools and the page with links with be updated before the presentation.My Favorite Power Toolshttp://www.AccessMVP.com/strive4peace/MyTools.htm",
+      "time": "3:05 PM",
+      "room": "Room 4 (Pyramid Peak)",
+      "roomId": 4
+    },
+    {
+      "id": 25,
+      "title": "Tools and Techniques for Troubleshooting Communications",
+      "speaker": "Jonathan McKinney",
+      "speakerId": 16,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Come learn when to use Message Analyzer, Network Monitor (Netmon), Wireshark and Fiddler. Find out each tools strengths and weaknesses. Learn how to decrypt HTTPS/SSL traffic when you have the private key and when you don't.",
+      "time": "3:25 PM",
+      "room": "Room 4 (Pyramid Peak)",
+      "roomId": 4
+    },
+    {
+      "id": 26,
+      "title": "Secure Coding in .NET – Data Validation & Encoding",
+      "speaker": "Mike Triplett",
+      "speakerId": 24,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        The OWASP Top Ten (https://www.owasp.org/index.php/Top_10_2013-Top_10) and the CWE/Mitre Top 25 (http://cwe.mitre.org/top25/) rank the top threats facing web applications.  In this session we’ll take a look at Cross Site Scripting (XSS).  XSS is ranked third on the OWASP Top Ten and #1 on the CWE/Mitre Top 25. ",
+      "time": "4:00 PM",
+      "room": "Room 3 (Pikes Peak)",
+      "roomId": 1
+    },
+    {
+      "id": 27,
+      "title": "Angular and TypeScript: Better Together",
+      "speaker": "Laurie Atkinson",
+      "speakerId": 1,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Angular 2 is coming and it's all about TypeScript. But, you don't need to wait to incorporate TypeScript into your Angular 1 apps. Come learn the patterns and techniques for building more readable and maintainable JavaScript code and lay the groundwork for Angular 2.",
+      "time": "4:00 PM",
+      "room": "Room 1 (Maroon Bells 1)",
+      "roomId": 3
+    },
+    {
+      "id": 28,
+      "title": "Writing a Software Program for a Job Application",
+      "speaker": "Vui Nguyen",
+      "speakerId": 18,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        There's a job you want to apply to, but it requires writing a software program. And (gasp!) the software program requires developing an algorithm to solve a puzzle or challenge. How do you go about doing that?Recently, Vui Nguyen developed an iOS Swift mobile application to submit with her job application, for an iOS Developer position she applied to. Vui will discuss the challenge she had to solve, the software program she wrote to solve it, and the process she went through to come up with the solution.Vui will show how, by breaking a large problem into smaller pieces, solving a challenge doesn't have to be scary.",
+      "time": "4:20 PM",
+      "room": "Room 2 (Maroon Bells 2)",
+      "roomId": 2
+    },
+    {
+      "id": 29,
+      "title": "Toward a Universal Coding Standard",
+      "speaker": "Martin L Buchanan",
+      "speakerId": 3,
+      "abstract": "\r\n                            \r\n                                                                \r\n                            \r\n                        \r\n\r\n        Martin will cover:\r\nThe common language found in every widely used programming language\r\nThe multiple languages found, in different ways, within each widely used programming language\r\nUniversal principles to follow when writing code in any language\r\nHe will speak without slides and provide a handout with all the key points.",
+      "time": "4:40 PM",
+      "room": "Room 2 (Maroon Bells 2)",
+      "roomId": 2
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room 3 (Pikes Peak)"
+    },
+    {
+      "id": 2,
+      "name": "Room 2 (Maroon Bells 2)"
+    },
+    {
+      "id": 3,
+      "name": "Room 1 (Maroon Bells 1)"
+    },
+    {
+      "id": 4,
+      "name": "Room 4 (Pyramid Peak)"
+    },
+    {
+      "id": 5,
+      "name": "Room 5 (Longs Peak)"
+    }
+  ],
+  "sponsors": [
+    {
+      "id": 1,
+      "name": "Microsoft",
+      "link": "http://microsoft.com/",
+      "about": "\r\n            <p></p>\r\n        "
+    },
+    {
+      "id": 2,
+      "name": "Neudesic",
+      "link": "https://www.neudesic.com/",
+      "about": "\r\n            <p></p><p>For more than a decade, Neudesic has been providing innovative technologies, services and software products to help organizations gain a competitive advantage.&#xA0; Our approach is to provide clients with technology-enabled solutions that deliver sustainable business value in areas such as application development, business intelligence, cloud computing, collaboration, CRM, integration, managed services and mobility.&#xA0;</p>\r\n<p>&#xA0;Founded in 2002 and headquartered in Irvine, Calif., Neudesic is a privately-held company, serving clients globally from offices across the United States. For more information, visit&#xA0;<a href=\"https://www.neudesic.com/\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?hl=en&amp;q=http://www.neudesic.com&amp;source=gmail&amp;ust=1464309933687000&amp;usg=AFQjCNH3rc4N2qMulpeWGj_XAV6BiqPElQ\">www.neudesic.com</a>.</p><p></p>\r\n        "
+    },
+    {
+      "id": 3,
+      "name": "RevGen Partners",
+      "link": "http://www.revgenpartners.com/",
+      "about": "\r\n            <p></p><p><a href=\"http://www.revgenpartners.com/\" target=\"_blank\" data-saferedirecturl=\"https://www.google.com/url?hl=en&amp;q=http://www.revgenpartners.com/&amp;source=gmail&amp;ust=1465950632534000&amp;usg=AFQjCNE1wEe-XNuuC3e01-K38VI-yubAhA\">RevGen Partners</a>&#xA0;is a business consulting firm specializing in digital innovation, analytics &amp; data management and business transformation. We are based in the Denver Tech Center with just under 100 employees.</p>\r\n<p>We solve our clients&#x2019; business problems with digital and data solutions including custom web and mobile applications. Our development work is in the Microsoft stack and beyond: C#, .NET, MVC, Angular, Bootstrap, JavaScript, Xamarin, PhoneGap, and more. We approach all of our consulting engagements as a business partner and consistently deliver value with speed and agility. &#xA0;RevGen Partners is a people-focused business driven by core values of integrity, respect, stewardship, and enjoyment. The firm has been recognized as a top place to work by The Denver Post for the past three years.</p><p></p>\r\n        "
+    },
+    {
+      "id": 4,
+      "name": "S&P Global",
+      "link": "https://www.spglobal.com/",
+      "about": "\r\n            <p></p><p class=\"LandorBody\">At <a href=\"https://www.spglobal.com/\" target=\"_blank\">S&amp;P Global</a>, we don&#x2019;t give you intelligence&#x2014;we give you essential intelligence. The essential intelligence you need to make decisions with conviction. We&#x2019;re the world&#x2019;s foremost provider of ratings, benchmarks and analytics in the global capital and commodity markets. Our divisions include:</p>\r\n<ul>\r\n<li>S&amp;P Global Ratings, which provides credit ratings, research and insights essential to driving growth and transparency.</li>\r\n<li>S&amp;P Global Market Intelligence, which provides insights into companies, markets and data so that business and financial decisions can be made with conviction.</li>\r\n<li>S&amp;P Dow Jones Indices, the world&#x2019;s largest resource for iconic and innovative indices, which helps investors pinpoint global opportunities.</li>\r\n<li>S&amp;P Global Platts, which equips customers to identify and seize opportunities in energy and commodities, stimulating business growth and market transparency.</li>\r\n</ul><p></p>\r\n        "
+    },
+    {
+      "id": 5,
+      "name": "Syncfusion, Inc",
+      "link": "https://www.syncfusion.com/",
+      "about": "\r\n            <p></p><p>Founded in 2001 and headquartered in Research Triangle Park, North Carolina, Syncfusion is the enterprise technology partner of choice for Windows development, delivering a broad range of .NET and JavaScript components and controls coupled with a service-oriented approach throughout the entire application life cycle.</p>\r\n<p>Syncfusion, Inc. provides the broadest range of enterprise-class developer solutions, from award-winning components and controls to end-to-end services for web, mobile, and desktop applications. Syncfusion .NET controls are designed to meet the evolving needs of developers, whether they&#x2019;re working in Windows Forms, WPF, ASP.NET, ASP.NET MVC, Silverlight, JavaScript, Xamarin, or Windows Phone.</p>\r\n<p>Our Essential Studio is an award-winning collection of more than 650 components and controls for building modern user interfaces, interactive reporting solutions, and customizable business intelligence dashboards. Download our Community License for FREE and gain access to Enterprise solutions for Big Data, Dashboards and Reporting! Also, check out our online <a href=\"https://www.syncfusion.com/resources/techportal/ebooks\" target=\"_blank\">e-book library</a>, the Succinctly series. This series includes over 90+ short e-books designed to introduce developers to popular technology topics!</p>\r\n<p>Check us out at <a href=\"https://www.syncfusion.com/\" target=\"_blank\">Syncfusion.com</a></p><p></p>\r\n        "
+    },
+    {
+      "id": 6,
+      "name": "TEKsystems",
+      "link": "http://www.teksystems.com/",
+      "about": "\r\n            <p></p><p><strong>About TEKsystems</strong></p>\r\n<p>Businesses are challenged to stay ahead of the latest trends and competitive developments while building a responsive and agile IT capability to support growth. However, since everyone has access to the same tools, technology alone does not offer a competitive advantage. Your advantage depends on how you apply technology&#x2014;more specifically, on the people who lead, support and optimize your IT initiatives.</p>\r\n<p><strong>IT Solutions that Work</strong></p>\r\n<p>The success of any initiative hinges on the quality of the people driving it.</p>\r\n<div class=\"sub-text\">\r\n<p>Our <a href=\"http://www.teksystems.com/services/it-talent-management-expertise\">IT talent management expertise</a> ensures you attract, develop and retain the best IT professionals required to achieve your business targets better, faster and more cost-effectively. We have the largest global network of credentialed IT professionals to lead and support your engagements. With <a href=\"http://www.teksystems.com/locations\">over 100 locations</a>, 5,000 employees throughout North America, Europe and Asia and an IT consultant network that encompasses over 81 percent of the IT workforce, we deploy more than 80,000 technical professionals annually to support critical engagements at more than 6,000 client sites, including 82 percent of the Fortune 500. In every <a href=\"http://www.teksystems.com/services/it-talent-management-expertise/local-market-expertise\">local market</a>, we build upon our pipelines of talented IT professionals, employing IT talent management best practices and ensuring our Employee Value Propositions (EVPs) stay competitive and compelling.</p>\r\n</div><p></p>\r\n        "
+    }
+  ]
+}
