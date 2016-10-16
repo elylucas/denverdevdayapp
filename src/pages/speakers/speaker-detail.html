@@ -7,7 +7,8 @@
 <ion-content>
     <ion-card>
         <div class="speaker-header">
-            <img src="assets/images/speakers/{{speaker.id}}.png" />
+            <!--<img src="assets/images/speakers/{{speaker.id}}.png" />-->
+            <img [src]="speaker.imgUrl" />
             <div class="speaker-info-container">
                 <div class="speaker-info">
                     <div class="name">{{speaker.name }}</div>

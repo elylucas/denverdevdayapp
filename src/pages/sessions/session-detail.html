@@ -7,7 +7,7 @@
 <ion-content>
     <ion-card>
         <div class="session-header">
-            <img src="assets/images/speakers/{{session.speakerId}}.png" />
+            <img *ngIf="speaker" [src]="speaker.imgUrl" />
             <div class="session-info-container">
                 <div class="session-info">
                     <div class="title">{{ session.title }}</div>

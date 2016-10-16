@@ -13,23 +13,31 @@ import SpeakerDetail from '../speakers/speaker-detail';
 export default class SessionDetail {
 
     public session: Session;
+    public speaker: Speaker;
 
-    constructor(private nav: NavController,params: NavParams, private favoritesService: FavoritesService, private dataService: DataService) { 
+    constructor(private nav: NavController, params: NavParams, private favoritesService: FavoritesService, private dataService: DataService) {
         this.session = params.get('session');
+        
+    }
+
+    ionViewWillEnter() {
+        this.dataService.getSpeakerById(this.session.speakerId).then((speaker: Speaker) => {
+            this.speaker = speaker;
+        });
     }
 
     isFavorite(session) {
         return this.favoritesService.isFavorite(session);
     }
 
-    toggleFavorite(session){
+    toggleFavorite(session) {
         this.favoritesService.toggleFavorite(session);
-    }  
+    }
 
     goToSpeaker(speakerId) {
         this.dataService.getSpeakerById(speakerId).then((speaker: Speaker) => {
-            this.nav.push(SpeakerDetail, {speaker});
-        });        
-    }  
+            this.nav.push(SpeakerDetail, { speaker });
+        });
+    }
 
 }
