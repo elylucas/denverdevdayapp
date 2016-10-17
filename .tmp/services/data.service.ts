@@ -3,7 +3,7 @@ import { Http, RequestOptions, Headers } from '@angular/http';
 import Session from '../models/session';
 import Speaker from '../models/speaker';
 import Sponsor from '../models/sponsor';
-import FavoritesService from './favorites.service';
+import FavService from './favorites.service';
 import moment from 'moment';
 //var moment = require('moment');
 
@@ -13,7 +13,7 @@ export default class DataService {
     private data: any;
     private lastfetch: moment.Moment;
 
-    constructor(private http: Http, private favoritesService: FavoritesService) {
+    constructor(private http: Http, private favoritesService: FavService) {
 
     }
 
