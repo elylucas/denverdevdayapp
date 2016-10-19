@@ -3,14 +3,14 @@ import {NavController} from 'ionic-angular';
 import { NavParams } from 'ionic-angular';
 import Speaker from '../../models/speaker';
 import Session from '../../models/session';
-import SessionDetail from '../sessions/session-detail';
-import DataService from '../../services/data.service';
+import {SessionDetail} from '../sessions/session-detail';
+import {DataService} from '../../services/data.service';
 
 @Component({
     selector: "speaker-detail",
     templateUrl: 'speaker-detail.html'
 })
-export default class SpeakerDetail {
+export class SpeakerDetail {
 
     public speaker: Speaker;
     public sessions: Session[];

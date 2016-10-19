@@ -3,12 +3,12 @@ import { Http, RequestOptions, Headers } from '@angular/http';
 import Session from '../models/session';
 import Speaker from '../models/speaker';
 import Sponsor from '../models/sponsor';
-import FavoritesService from './favorites.service';
+import {FavoritesService} from './favorites.service';
 import moment from 'moment';
 //var moment = require('moment');
 
 @Injectable()
-export default class DataService {
+export class DataService {
 
     private data: any;
     private lastfetch: moment.Moment;
@@ -94,12 +94,12 @@ export default class DataService {
     private isCacheExpired() {
         if (this.lastfetch) {
             var expDate = moment(this.lastfetch);
-            expDate.add(10, 'seconds');
+            expDate.add(5, 'minutes');
             if(expDate.isBefore(moment())) {
                 console.log('Cache expired');
                 return true;
             } else {
-                console.log('Cache valid', this.lastfetch.toISOString());
+                console.log('Cache valid', this.lastfetch.toISOString(), expDate.toISOString());
                 return false;
             }
         }

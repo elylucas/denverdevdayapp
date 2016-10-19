@@ -2,20 +2,20 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import Session from '../../models/session';
 import Speaker from '../../models/speaker';
-import FavService from '../../services/favorites.service';
-import DataService from '../../services/data.service';
-import SpeakerDetail from '../speakers/speaker-detail';
+import {FavoritesService} from '../../services/favorites.service';
+import {DataService} from '../../services/data.service';
+import {SpeakerDetail} from '../speakers/speaker-detail';
 
 @Component({
     selector: 'session-detail',
     templateUrl: 'session-detail.html'
 })
-export default class SessionDetail {
+export class SessionDetail {
 
     public session: Session;
     public speaker: Speaker;
 
-    constructor(private nav: NavController, params: NavParams, private favoritesService: FavService, private dataService: DataService) {
+    constructor(private nav: NavController, params: NavParams, private favoritesService: FavoritesService, private dataService: DataService) {
         this.session = params.get('session');
         
     }

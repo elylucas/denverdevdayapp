@@ -4,7 +4,7 @@ import Session from '../models/session';
 const FAVORITES_KEY = 'favorites';
 
 @Injectable()
-export default class FavService {
+export class FavoritesService {
     
     private favorites: number[] = [];
     

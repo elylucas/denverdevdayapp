@@ -4,6 +4,7 @@ interface Sponsor {
     name: string;
     link: string;
     about: string;
+    logo: string;
 }
 
 export default Sponsor;

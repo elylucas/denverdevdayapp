@@ -6,7 +6,7 @@
 
 <ion-content>
     <ion-card *ngFor="let sponsor of sponsors">
-        <a href="{{sponsor.link}}" target="_system"><img src="images/sponsors/{{sponsor.id}}.png" /></a>
+        <a href="{{sponsor.link}}" target="_system"><img [src]="sponsor.logo" /></a>
         <ion-card-content>
             <ion-card-title>
                 {{ sponsor.name }}

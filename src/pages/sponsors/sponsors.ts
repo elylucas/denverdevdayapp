@@ -1,6 +1,6 @@
 import {Component} from "@angular/core";
 import {NavController} from 'ionic-angular';
-import DataService from '../../services/data.service';
+import {DataService} from '../../services/data.service';
 import Sponsor from '../../models/sponsor';
 
 @Component({

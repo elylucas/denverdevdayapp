@@ -17,8 +17,7 @@
             </div>
         </div>
         <ion-card-content>
-            <div class="abstract">
-                {{ session.abstract }}
+            <div class="abstract" [innerHTML]="session.abstract">                
             </div>
             <button ion-button block (click)="toggleFavorite(session)">{{ isFavorite(session) ? 'Remove from Favorites' : 'Add to Favorites' }}</button>
         </ion-card-content>

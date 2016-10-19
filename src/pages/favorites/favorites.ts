@@ -1,8 +1,8 @@
 import {Component} from "@angular/core";
 import {NavController} from 'ionic-angular';
 import Session from '../../models/session';
-import SessionDetail from '../sessions/session-detail';
-import DataService from '../../services/data.service';
+import {SessionDetail} from '../sessions/session-detail';
+import {DataService} from '../../services/data.service';
 
 @Component({
   templateUrl: 'favorites.html'

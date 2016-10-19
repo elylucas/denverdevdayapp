@@ -2,8 +2,8 @@
 import {Component} from "@angular/core";
 import {NavController} from 'ionic-angular';
 import Speaker from '../../models/speaker';
-import SpeakerDetail from './speaker-detail';
-import DataService from '../../services/data.service';
+import {SpeakerDetail} from './speaker-detail';
+import {DataService} from '../../services/data.service';
 
 @Component({
   templateUrl: 'speakers.html'
