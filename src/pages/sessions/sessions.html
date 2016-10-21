@@ -8,7 +8,10 @@
     <ion-list>
         <button ion-item *ngFor="let session of sessions" tappable (click)="goToDetail(session)">
             <h2>{{ session.title }}</h2>
-            <h3>{{ session.speaker }}</h3>
+            <div class="speaker-names">
+                <span *ngFor="let speaker of session.speakers">{{ speaker.fullName }}</span>
+            </div>
+            
             <p *ngIf="session.time && session.room">{{ session.time | date:'h:mm' }} - {{ session.room }}</p>
             <p *ngIf="!session.time && !session.room">Time and room TBD</p>
         </button>

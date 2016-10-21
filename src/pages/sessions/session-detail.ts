@@ -13,17 +13,17 @@ import {SpeakerDetail} from '../speakers/speaker-detail';
 export class SessionDetail {
 
     public session: Session;
-    public speaker: Speaker;
+    public speakerImg: string;
 
     constructor(private nav: NavController, params: NavParams, private favoritesService: FavoritesService, private dataService: DataService) {
-        this.session = params.get('session');
-        
+        this.session = params.get('session');       
     }
 
     ionViewWillEnter() {
-        this.dataService.getSpeakerById(this.session.speakerId).then((speaker: Speaker) => {
-            this.speaker = speaker;
-        });
+        var speaker = <Speaker>this.session.speakers[Math.floor(Math.random()*this.session.speakers.length)];
+        this.dataService.getSpeakerById(speaker.id).then((s: Speaker) => {
+            this.speakerImg = s.imgUrl;
+        });       
     }
 
     isFavorite(session) {

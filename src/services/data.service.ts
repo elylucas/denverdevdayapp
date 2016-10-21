@@ -41,8 +41,8 @@ export class DataService {
     getSessionsBySpeaker(speaker) {
         return new Promise((resolve, reject) => {
             this.getSessions().then((sessions: Session[]) => {
-                let speakerSessions = sessions.filter((value: Session) => {
-                    return value.speakerId === speaker.id;
+                let speakerSessions = sessions.filter((session: Session) => {
+                    return session.speakers.find(x => x.id === speaker.id);
                 });
                 resolve(speakerSessions);
             });

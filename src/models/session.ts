@@ -2,8 +2,7 @@
 export interface Session {
     id: number;
     title: string;
-    speaker: string;
-    speakerId: number;
+    speakers: Array<any>;
     abstract: string;
     time: string;
     room: string;

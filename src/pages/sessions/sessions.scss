@@ -2,6 +2,19 @@ sessions {
     h2 {
         white-space: normal;
     }
+    .speaker-names {
+        margin-bottom: 5px;
+        span:after {
+            content: ' | ';
+        }
+        span {
+            font-size: .85em;
+            //margin-right: 5px;
+        }
+        span:last-of-type:after {
+            content: '';
+        }
+    }
 }
 
 session-detail {
@@ -29,12 +42,22 @@ session-detail {
                         font-weight: bold;
                         font-size: 1.1em;
                     }
-                    .speaker-name a {
-                        font-size: 1.1em;
-                        color: white;
-                    }
+                    .speaker-names {
+                        margin: 5px 0;
+                        span:after {
+                            content: ' | ';
+                        }
+                        span:last-of-type:after {
+                            content: '';
+                        }
+                        .speaker-name a {
+                            font-size: 1.1em;
+                            color: white;
+                        }
+                    }                    
                 }
             }
+            
         }
 
         ion-card-content {
