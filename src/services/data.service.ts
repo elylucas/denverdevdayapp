@@ -6,7 +6,6 @@ import Speaker from '../models/speaker';
 import Sponsor from '../models/sponsor';
 import { FavoritesService } from './favorites.service';
 import moment from 'moment';
-//var moment = require('moment');
 
 @Injectable()
 export class DataService {
