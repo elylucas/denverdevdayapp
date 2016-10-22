@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
+import { ToastController } from 'ionic-angular'
 import { Http, RequestOptions, Headers } from '@angular/http';
 import Session from '../models/session';
 import Speaker from '../models/speaker';
 import Sponsor from '../models/sponsor';
-import {FavoritesService} from './favorites.service';
+import { FavoritesService } from './favorites.service';
 import moment from 'moment';
 //var moment = require('moment');
 
@@ -13,7 +14,7 @@ export class DataService {
     private data: any;
     private lastfetch: moment.Moment;
 
-    constructor(private http: Http, private favoritesService: FavoritesService) {
+    constructor(private http: Http, private favoritesService: FavoritesService, private toast: ToastController) {
 
     }
 
@@ -76,7 +77,7 @@ export class DataService {
 
     private getData(): Promise<any> {
         return new Promise((resolve, reject) => {
-            if(this.data && !this.isCacheExpired()){
+            if (this.data && !this.isCacheExpired()) {
                 resolve(this.data);
             } else {
                 this.http
@@ -86,6 +87,19 @@ export class DataService {
                         this.data = data.json();
                         this.lastfetch = moment();
                         resolve(this.data);
+                    })
+                    .catch(() => {
+                        let toast = this.toast.create({
+                            message: 'There was an error getting the data.  Please try again later.',
+                            duration: 5000,
+                            position: 'middle'
+                        });
+                        toast.present();
+                        if(this.data) {
+                            resolve(this.data);
+                        } else {
+                            reject();
+                        }
                     });
             }
         });
@@ -95,7 +109,7 @@ export class DataService {
         if (this.lastfetch) {
             var expDate = moment(this.lastfetch);
             expDate.add(5, 'minutes');
-            if(expDate.isBefore(moment())) {
+            if (expDate.isBefore(moment())) {
                 console.log('Cache expired');
                 return true;
             } else {
