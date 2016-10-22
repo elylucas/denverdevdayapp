@@ -1,4 +1,5 @@
 
+import {Platform} from 'ionic-angular';
 import {Component} from "@angular/core";
 import {NavController} from 'ionic-angular';
 
@@ -10,9 +11,20 @@ export class About {
 
     public map: any = {};
 
-    constructor(private nav: NavController) {
+    constructor(private nav: NavController, private platform: Platform) {
         setTimeout(this.loadMap, 1);
         //this.loadMap();
+    }
+
+    openMap() {
+        let lat = '39.630645';
+        let long = '-104.902750';
+        let text = 'Denver Dev Day';
+        if(this.platform.is('ios')) {
+            window.open(`http://maps.apple.com/?q=${text}&ll=${lat},${long}&near=${lat},${long}`, '_system', 'location=yes') 
+        } else {
+            window.open(`geo:${lat},${long}?q=${text}`, '_system', 'location=yes')
+        }
     }
 
     loadMap() {
