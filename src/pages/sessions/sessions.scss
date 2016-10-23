@@ -8,12 +8,14 @@ sessions {
             content: ' | ';
         }
         span {
-            font-size: .85em;
-            //margin-right: 5px;
+            font-size: .9em;
         }
         span:last-of-type:after {
             content: '';
         }
+    }
+    .time-and-room {
+       font-size: .8em;
     }
 }
 
@@ -54,10 +56,13 @@ session-detail {
                             font-size: 1.1em;
                             color: white;
                         }
-                    }                    
+                    }   
+                    .time-and-room p {
+                        color: white;
+                    }                 
                 }
             }
-            
+
         }
 
         ion-card-content {

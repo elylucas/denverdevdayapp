@@ -5,6 +5,7 @@ import {SessionDetail} from '../sessions/session-detail';
 import {DataService} from '../../services/data.service';
 
 @Component({
+  selector: 'favorites',
   templateUrl: 'favorites.html'
 })
 export class Favorites {
