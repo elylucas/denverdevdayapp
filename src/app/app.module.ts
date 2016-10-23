@@ -11,6 +11,7 @@ import { Sponsors } from '../pages/sponsors/sponsors';
 import { TabsPage } from '../pages/tabs/tabs';
 import {DataService} from '../services/data.service';
 import {FavoritesService} from '../services/favorites.service';
+import {CustomDatePipe} from '../pipes/customedate.pipe';
 import 'rxjs/Rx';
 
 @NgModule({
@@ -23,7 +24,8 @@ import 'rxjs/Rx';
     Speakers,
     SpeakerDetail,
     Sponsors,
-    TabsPage
+    TabsPage,
+    CustomDatePipe
   ],
   imports: [
     IonicModule.forRoot(MyApp)

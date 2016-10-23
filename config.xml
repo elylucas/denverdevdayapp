@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="net.elylucas.denverdevday" version="2.0.0" ios-CFBundleVersion="4" android-versionCode="4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="net.elylucas.denverdevday" version="2.1.0" ios-CFBundleVersion="5" android-versionCode="4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>DenverDevDay</name>
   <description>Denver Dev Day, the premeir developer event in Colorado</description>
   <author email="ely@meta-tek.net" href="http://www.elylucas.net/">Ely Lucas</author>

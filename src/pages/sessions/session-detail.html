@@ -15,7 +15,7 @@
 						<span class="speaker-name" *ngFor="let speaker of session.speakers"><a (click)="goToSpeaker(speaker.id)">{{ speaker.fullName }}</a></span>
 					</div>
 					<div class="time-and-room">
-						<p *ngIf="session.time && session.room">{{ session.time | date:'h:mm' }} - {{ session.room }}</p>
+						<p *ngIf="session.time && session.room">{{ session.time | customDate: 'h:mm a' }} - {{ session.room }}</p>
 						<p *ngIf="!session.time && !session.room">Time and room TBD</p>
 					</div>
 				</div>
