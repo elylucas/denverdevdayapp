@@ -1,0 +1,18 @@
+<ion-header class="opaque">
+    <ion-navbar>
+        <ion-title>Sessions</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content fullscreen padding class="sessions">
+    <ion-list>
+        <button ion-item *ngFor="let session of sessions" tappable (click)="goToDetail(session)">
+            <h2>{{ session.title }}</h2>
+            <div class="speaker-names">
+                <span *ngFor="let speaker of session.speakers">{{ speaker.fullName }}</span>
+            </div>            
+            <p *ngIf="session.time && session.room" class="time-and-room">{{ session.time | customDate:'h:mm a' }} - {{ session.room }}</p>
+            <p *ngIf="!session.time && !session.room" class="time-and-room">Time and room TBD</p>
+        </button>
+    </ion-list>
+</ion-content>
