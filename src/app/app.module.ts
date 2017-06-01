@@ -17,6 +17,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { DataService } from '../services/data.service';
 import { FavoritesService } from '../services/favorites.service';
 import { CustomDatePipe } from '../pipes/customedate.pipe';
+import { SessionListComponent } from '../components/session-list/session-list';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CustomDatePipe } from '../pipes/customedate.pipe';
     SpeakerDetail,
     Sponsors,
     TabsPage,
-    CustomDatePipe
+    CustomDatePipe,
+    SessionListComponent
   ],
   imports: [
     BrowserModule,

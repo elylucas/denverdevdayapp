@@ -1,4 +1,4 @@
-<ion-header class="opaque">
+<ion-header class="opaque" no-border>
     <ion-navbar>
         <ion-title>Sessions</ion-title>
     </ion-navbar>
@@ -10,7 +10,7 @@
             <h2>{{ session.title }}</h2>
             <div class="speaker-names">
                 <span *ngFor="let speaker of session.speakers">{{ speaker.fullName }}</span>
-            </div>            
+            </div>
             <p *ngIf="session.time && session.room" class="time-and-room">{{ session.time | customDate:'h:mm a' }} - {{ session.room }}</p>
             <p *ngIf="!session.time && !session.room" class="time-and-room">Time and room TBD</p>
         </button>

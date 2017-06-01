@@ -21,6 +21,7 @@ export class DataService {
 
         return new Promise((resolve, reject) => {
             this.getData().then(data => {
+                console.log(JSON.stringify(data))
                 resolve(data.sessions);
             })
         });

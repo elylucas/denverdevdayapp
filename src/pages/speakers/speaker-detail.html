@@ -1,42 +1,35 @@
-<ion-header class="opaque">
-    <ion-navbar>
-        <ion-title>Speaker Detail</ion-title>
-    </ion-navbar>
+<ion-header class="opaque" no-border>
+  <ion-navbar>
+    <ion-title>Speaker Detail</ion-title>
+  </ion-navbar>
 </ion-header>
 
 <ion-content>
-    <ion-card>
-        <div class="speaker-header">
-            <!--<img src="assets/images/speakers/{{speaker.id}}.png" />-->
-            <img [src]="speaker.imgUrl" />
-            <div class="speaker-info-container">
-                <div class="speaker-info">
-                    <div class="name">{{ speaker.fullName }}</div>
-                    <div class="twitter" *ngIf="speaker.twitter">
-                        <a href="{{speaker.twitter }}" target="_system">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
-                    </div>
-                    <div class="blog" *ngIf="speaker.blog">
-                        <a href="{{speaker.blog }}" target="_system">
-                            <ion-icon name="logo-rss"></ion-icon>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <ion-card-content>
-            <div class="bio" [innerHTML]="speaker.bio">
 
-            </div>
-            <div class="sessions">
-                <h3>Sessions</h3>
-                <ul>
-                    <li *ngFor="let session of sessions">
-                        <a (click)="goToSession(session)">{{ session.title }}</a>
-                    </li>
-                </ul>
-            </div>
-        </ion-card-content>
-    </ion-card>
+  <ion-slides #slides pager>
+
+    <ion-slide>
+      <img [src]="speaker.imgUrl" />
+      <div class="name">{{ speaker.fullName }}</div>
+      <div class="company">{{ speaker.company }}</div>
+    </ion-slide>
+
+    <ion-slide *ngIf="speaker.twiiter || speaker.blog">
+      <a href="{{speaker.twitter}}" target="_system" *ngIf="speaker.twitter">
+        <ion-icon name="logo-twitter"></ion-icon></a>
+      <a href="{{speaker.blog}}" target="_system" *ngIf="speaker.blog">
+        <ion-icon name="logo-rss"></ion-icon>
+      </a>
+    </ion-slide>
+
+  </ion-slides>
+
+  <div class="bio-header">Bio</div>
+  <div class="bio" [innerHTML]="speaker.bio"></div>
+
+  <div class="bio-header">Sessions</div>
+
+  <session-list [sessions]="sessions"></session-list>
+
+
 </ion-content>

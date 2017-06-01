@@ -16,14 +16,15 @@ export class SessionDetail {
     public speakerImg: string;
 
     constructor(private nav: NavController, params: NavParams, private favoritesService: FavoritesService, private dataService: DataService) {
-        this.session = params.get('session');       
+        this.session = params.get('session');
+        console.log(JSON.stringify(this.session));
     }
 
     ionViewWillEnter() {
         var speaker = <Speaker>this.session.speakers[Math.floor(Math.random()*this.session.speakers.length)];
         this.dataService.getSpeakerById(speaker.id).then((s: Speaker) => {
             this.speakerImg = s.imgUrl;
-        });       
+        });
     }
 
     isFavorite(session) {

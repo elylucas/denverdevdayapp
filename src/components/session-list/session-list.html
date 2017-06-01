@@ -1,0 +1,11 @@
+<ion-grid>
+  <ion-row *ngFor="let session of sessions" tappable (click)="goToSession(session)">
+    <ion-col col-3 class="col-time">
+      {{session.time | customDate:'h:mm a'}}
+    </ion-col>
+    <ion-col col-9>
+      {{session.title}}
+      <div class="time-and-room">{{session.room}}</div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
