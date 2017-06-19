@@ -9,20 +9,21 @@ import {DataService} from '../../services/data.service';
   templateUrl: 'speakers.html'
 })
 export class Speakers {
-  
+
   public speakers: Speaker[];
-  
-  constructor(private nav: NavController, private dataService: DataService) {    
-    
+
+  constructor(private nav: NavController, private dataService: DataService) {
+
   }
-  
+
   ionViewWillEnter() {
     this.dataService.getSpeakers().then((speakers: Speaker[]) => {
       this.speakers = speakers;
     });
   }
-  
+
   goToDetail(speaker: Speaker) {
+    console.log('adsf')
     this.nav.push(SpeakerDetail, {speaker});
   }
 }

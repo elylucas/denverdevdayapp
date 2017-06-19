@@ -1,30 +1,32 @@
-<ion-header class="opaque" no-border>
-	<ion-navbar>
-		<ion-title>Session Detail</ion-title>
-	</ion-navbar>
+<ion-header no-border>
+  <ion-navbar>
+    <ion-title>Session Detail</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="moreClick($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
 </ion-header>
 
 <ion-content>
-	<ion-card>
-		<div class="session-header">
-			<img *ngIf="speakerImg" [src]="speakerImg" />
-			<div class="session-info-container">
-				<div class="session-info">
-					<div class="title">{{ session.title }}</div>
-					<div class="speaker-names">
-						<span class="speaker-name" *ngFor="let speaker of session.speakers"><a (click)="goToSpeaker(speaker.id)">{{ speaker.fullName }}</a></span>
-					</div>
-					<div class="time-and-room">
-						<p *ngIf="session.time && session.room">{{ session.time | customDate: 'h:mm a' }} - {{ session.room }}</p>
-						<p *ngIf="!session.time && !session.room">Time and room TBD</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<ion-card-content>
-			<div class="abstract" [innerHTML]="session.abstract">
-			</div>
-			<button ion-button block (click)="toggleFavorite(session)">{{ isFavorite(session) ? 'Remove from Favorites' : 'Add to Favorites' }}</button>
-		</ion-card-content>
-	</ion-card>
+
+  <ion-slides #slides>
+    <ion-slide>
+      <div class="name">{{ session.title }}</div>
+      <div class="time">{{ session.time | customDate:'h:mm a' }}</div>
+      <div class="time">{{ session.room }}</div>
+      <ion-icon tappable (click)="toggleFavorite(session)" name="ios-star" isActive="{{isFavorite(session) ? 'true' : 'false'}}"></ion-icon>
+    </ion-slide>
+  </ion-slides>
+
+  <div class="session-header">Description</div>
+  <div class="session-detail" [innerHTML]="session.abstract"></div>
+
+  <div class="session-header">Speaker</div>
+  <div>
+    <speaker-list [speakers]="session.speakers" (speakerSelected)="goToSpeaker($event)"></speaker-list>
+  </div>
+
 </ion-content>

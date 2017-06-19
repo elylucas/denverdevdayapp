@@ -1,0 +1,20 @@
+speaker-list {
+
+  img {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50px;
+    border: 1px solid white;
+  }
+
+  .speaker-company {
+    font-size: .9em;
+    margin-top: 5px;
+    color: #888;
+  }
+
+  ion-row {
+    border-bottom: 1px solid #ddd;
+  }
+
+}

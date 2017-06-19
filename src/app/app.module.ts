@@ -14,10 +14,14 @@ import { Speakers } from '../pages/speakers/speakers';
 import { SpeakerDetail } from '../pages/speakers/speaker-detail';
 import { Sponsors } from '../pages/sponsors/sponsors';
 import { TabsPage } from '../pages/tabs/tabs';
+
+import { MoreMenu } from '../pages/sessions/more-menu';
+
 import { DataService } from '../services/data.service';
 import { FavoritesService } from '../services/favorites.service';
 import { CustomDatePipe } from '../pipes/customedate.pipe';
 import { SessionListComponent } from '../components/session-list/session-list';
+import { SpeakerListComponent } from '../components/speaker-list/speaker-list';
 
 @NgModule({
   declarations: [
@@ -30,8 +34,10 @@ import { SessionListComponent } from '../components/session-list/session-list';
     SpeakerDetail,
     Sponsors,
     TabsPage,
+    MoreMenu,
     CustomDatePipe,
-    SessionListComponent
+    SessionListComponent,
+    SpeakerListComponent
   ],
   imports: [
     BrowserModule,
@@ -48,6 +54,7 @@ import { SessionListComponent } from '../components/session-list/session-list';
     Speakers,
     SpeakerDetail,
     Sponsors,
+    MoreMenu,
     TabsPage
   ],
   providers: [

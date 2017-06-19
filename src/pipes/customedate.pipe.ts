@@ -5,10 +5,7 @@ import moment from 'moment';
 export class CustomDatePipe implements PipeTransform {
 
   public transform(value: Date, fmt: string): string {
-
     let dateTime = moment(value);
-
-    return dateTime.format(fmt);// this.formatter.format(value, CustomDatePipe.namedFormats[fmt]);
-
+    return dateTime.format(fmt);
   }
 }

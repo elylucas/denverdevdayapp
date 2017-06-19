@@ -1,5 +1,5 @@
-import { Component, ViewChild } from '@angular/core';
-import { NavController, Slides } from 'ionic-angular';
+import { Component } from '@angular/core';
+import { NavController } from 'ionic-angular';
 import { NavParams } from 'ionic-angular';
 import Speaker from '../../models/speaker';
 import Session from '../../models/session';
@@ -11,7 +11,6 @@ import { DataService } from '../../services/data.service';
   templateUrl: 'speaker-detail.html'
 })
 export class SpeakerDetail {
-  @ViewChild('slider') slides: Slides;
   public speaker: Speaker;
   public sessions: Session[];
   public section: String = 'sessions';
@@ -25,11 +24,7 @@ export class SpeakerDetail {
     });
   }
 
-  ngAfterViewInit() {
-    //this.slides.autoHeight = true;
-  }
-
-  goToSession(session) {
+  goToSession(session: Session) {
     this.nav.push(SessionDetail, { session });
   }
 

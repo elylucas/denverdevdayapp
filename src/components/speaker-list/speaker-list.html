@@ -1,0 +1,11 @@
+<ion-grid>
+  <ion-row *ngFor="let speaker of speakers" tappable (click)="speakerClick(speaker)">
+    <ion-col col-2>
+      <img *ngIf="speaker.imgUrl" [src]="speaker.imgUrl" />
+    </ion-col>
+    <ion-col col-10>
+      <span class="speaker-name">{{ speaker.fullName }}</span><br>
+      <span class="speaker-company">{{ speaker.company }}</span>
+    </ion-col>
+  </ion-row>
+</ion-grid>

@@ -1,11 +1,18 @@
+
 <ion-grid>
-  <ion-row *ngFor="let session of sessions" tappable (click)="goToSession(session)">
+  <ion-row *ngFor="let session of sessions" tappable (click)="sessionClick(session)">
     <ion-col col-3 class="col-time">
+      <ion-icon name="ios-clock-outline"></ion-icon>
       {{session.time | customDate:'h:mm a'}}
     </ion-col>
     <ion-col col-9>
       {{session.title}}
-      <div class="time-and-room">{{session.room}}</div>
+      <div class="speaker-names">
+        <span *ngFor="let speaker of session.speakers">{{ speaker.fullName }}</span>
+      </div>
+      <div class="time-and-room">
+        <ion-icon name="pin"></ion-icon> {{session.room}}
+      </div>
     </ion-col>
   </ion-row>
 </ion-grid>

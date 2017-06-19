@@ -1,12 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Session } from '../../models/session';
 
-/**
- * Generated class for the SessionListComponent component.
- *
- * See https://angular.io/docs/ts/latest/api/core/index/ComponentMetadata-class.html
- * for more info on Angular Components.
- */
 @Component({
   selector: 'session-list',
   templateUrl: 'session-list.html'
@@ -14,8 +8,13 @@ import { Session } from '../../models/session';
 export class SessionListComponent {
 
   @Input() sessions: Session[];
+  @Output() sessionSelected: EventEmitter<Session> = new EventEmitter<Session>();
 
   constructor() {
+  }
+
+  sessionClick(session: Session) {
+    this.sessionSelected.emit(session);
   }
 
 }

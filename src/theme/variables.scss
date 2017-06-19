@@ -25,15 +25,39 @@ $font-path: "../assets/fonts";
 
 $colors: (
   primary:    #003d6e,
-  secondary:  #009eff,
+  secondary:  #0076d4,
   danger:     #f53d3d,
-  light:      #f4f4f4,
+  light:      #0076d4,
   dark:       #222
 );
 
 $background-color: lighten(color($colors, primary), 75);
 
 $toolbar-background: color($colors, primary);
+
+.favorites-toast {
+  .toast-wrapper {
+    width: 60%;
+    .toast-container {
+      width: auto;
+
+      .toast-message {
+        text-align: center;
+
+        padding: 10px;
+        //border: 1px solid color($colors, light);
+        border-radius: 10px;
+        //color: black;
+      }
+    }
+
+  }
+
+ // background-color: white;
+}
+
+// $toast-ios-background: white;
+// $toast-ios-title-color: black;
 
 
 // App iOS Variables

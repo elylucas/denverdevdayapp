@@ -1,9 +1,8 @@
 import { Injectable } from '@angular/core';
 import { ToastController } from 'ionic-angular'
-import { Http, RequestOptions, Headers } from '@angular/http';
+import { Http } from '@angular/http';
 import Session from '../models/session';
 import Speaker from '../models/speaker';
-import Sponsor from '../models/sponsor';
 import { FavoritesService } from './favorites.service';
 import moment from 'moment';
 
@@ -21,7 +20,6 @@ export class DataService {
 
         return new Promise((resolve, reject) => {
             this.getData().then(data => {
-                console.log(JSON.stringify(data))
                 resolve(data.sessions);
             })
         });
