@@ -1,7 +1,6 @@
 
 import { Platform } from 'ionic-angular';
 import { Component } from "@angular/core";
-import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'about',
@@ -11,7 +10,7 @@ export class About {
 
   public map: any = {};
 
-  constructor(private nav: NavController, private platform: Platform) {
+  constructor(private platform: Platform) {
 
   }
 

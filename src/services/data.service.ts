@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ToastController } from 'ionic-angular'
+import { ToastController } from 'ionic-angular';
 import { Http } from '@angular/http';
 import Session from '../models/session';
 import Speaker from '../models/speaker';

@@ -1,5 +1,4 @@
 import {Component} from "@angular/core";
-import {NavController} from 'ionic-angular';
 import {DataService} from '../../services/data.service';
 import Sponsor from '../../models/sponsor';
 
@@ -11,7 +10,7 @@ export class Sponsors {
 
     public sponsors: Sponsor[];
 
-    constructor(private nav: NavController, private dataService: DataService) {
+    constructor(private dataService: DataService) {
 
     }
 
