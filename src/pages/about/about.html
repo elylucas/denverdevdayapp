@@ -10,10 +10,10 @@
             <div class="about-header">
                 <img src="assets/images/logo.png" />
                 <div class="about-container">
-                    <h3>June 23rd, 2017 8:00am - 5:00pm</h3>
+                    <h3>{{this.dateString}}</h3>
                 </div>
             </div>
-            <p>Colorado’s premier, local community-organized developer event. With presentation topics ranging from desktop, micro-services, and web development to patterns, the cloud, and soft skills, Denver Dev Day is your awesome, free, day-long resource for developer learning.</p>
+            <p *ngIf="event" class="description">{{event.description}}</p>
             <br>
             <button ion-button block (click)="openMap()">Open in Maps</button>
         </ion-card-content>

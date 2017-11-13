@@ -12,17 +12,21 @@ about {
 
             .about-container {
                 position: absolute;
-                top: 0;                
+                top: 0;
                 width: 100%;
                 height: 100%;
-                
+
                 background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(45%, rgba(0, 0, 0, .2)), color-stop(100%, rgba(255, 255, 255, .1)));
                 h3 {
                     margin: 5px;
                     font-weight: bold;
                     font-size: 1.2em;
-                    color: white;   
+                    color: white;
                 }
+            }
+
+            .description {
+              padding: 8px 0;
             }
         }
 
@@ -42,5 +46,5 @@ about {
 
     }
 
-    
+
 }
