@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="100004" id="net.elylucas.denverdevday" ios-CFBundleVersion="6" version="2.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="100005" id="net.elylucas.denverdevday" ios-CFBundleVersion="7" version="2.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>DenverDevDay</name>
     <description>Denver Dev Day, the premier developer event in Colorado</description>
     <author email="ely@meta-tek.net" href="http://www.elylucas.net/">Ely Lucas</author>
@@ -86,11 +86,10 @@
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
-    <plugin name="ionic-plugin-keyboard" spec="~2.2.1" />
-    <plugin name="cordova-plugin-whitelist" spec="1.3.1" />
-    <plugin name="cordova-plugin-console" spec="1.0.5" />
-    <plugin name="cordova-plugin-statusbar" spec="2.2.2" />
-    <plugin name="cordova-plugin-device" spec="1.1.4" />
-    <plugin name="cordova-plugin-splashscreen" spec="~4.0.1" />
-    <engine name="ios" spec="~4.5.3" />
+    <engine name="ios" spec="4.5.3" />
+    <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.3.0" />
+    <plugin name="cordova-plugin-device" spec="^1.1.7" />
+    <plugin name="cordova-plugin-splashscreen" spec="^4.1.0" />
 </widget>
