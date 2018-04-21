@@ -5,5 +5,15 @@
 </ion-header>
 
 <ion-content class="speaker">
-  <speaker-list [speakers]="speakers" (speakerSelected)="goToDetail($event)"></speaker-list>
+  <div *ngIf="pageLoaded">
+    <div *ngIf="event.published">
+      <speaker-list [speakers]="speakers" (speakerSelected)="goToDetail($event)"></speaker-list>
+    </div>
+    <p *ngIf="!event.published">
+      <coming-soon [event]="event"></coming-soon>
+    </p>
+  </div>
+  <div *ngIf="!pageLoaded">
+    <p>Loading</p>
+  </div>
 </ion-content>

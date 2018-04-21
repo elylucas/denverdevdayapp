@@ -14,7 +14,7 @@
       <div class="company">{{ speaker.company }}</div>
     </ion-slide>
 
-    <ion-slide *ngIf="speaker.twiiter || speaker.blog">
+    <ion-slide *ngIf="speaker.twitter || speaker.blog">
       <a href="{{speaker.twitter}}" target="_system" *ngIf="speaker.twitter" tappable>
         <ion-icon name="logo-twitter"></ion-icon></a>
       <a href="{{speaker.blog}}" target="_system" *ngIf="speaker.blog" tappable>

@@ -22,6 +22,7 @@ import { FavoritesService } from '../services/favorites.service';
 import { CustomDatePipe } from '../pipes/customedate.pipe';
 import { SessionListComponent } from '../components/session-list/session-list';
 import { SpeakerListComponent } from '../components/speaker-list/speaker-list';
+import { ComingSoonComponent } from '../components/coming-soon/coming-soon';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { SpeakerListComponent } from '../components/speaker-list/speaker-list';
     MoreMenu,
     CustomDatePipe,
     SessionListComponent,
-    SpeakerListComponent
+    SpeakerListComponent,
+    ComingSoonComponent
   ],
   imports: [
     BrowserModule,

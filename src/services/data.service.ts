@@ -94,7 +94,7 @@ export class DataService {
         resolve(this.data);
       } else {
         this.http
-          .get('https://denverdevday.blob.core.windows.net/denverdevday/denverdevdaydata.json')
+          .get('https://denverdevday.blob.core.windows.net/denverdevday/denverdevdaydata2018-1.json')
           .toPromise()
           .then(data => {
             this.data = data.json();
@@ -121,7 +121,7 @@ export class DataService {
   private isCacheExpired(): boolean {
     if (this.lastfetch) {
       var expDate = moment(this.lastfetch);
-      expDate.add(5, 'minutes');
+      expDate.add(30, 'seconds');
       if (expDate.isBefore(moment())) {
         console.log('Cache expired');
         return true;

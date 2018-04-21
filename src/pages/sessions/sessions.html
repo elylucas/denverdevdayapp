@@ -1,12 +1,22 @@
 <ion-header no-border>
-    <ion-navbar>
-        <ion-title>Sessions</ion-title>
-    </ion-navbar>
+  <ion-navbar>
+    <ion-title>Sessions</ion-title>
+  </ion-navbar>
 </ion-header>
 
 <ion-content class="sessions">
-    <ion-item-group *ngFor="let groupedSession of groupedSessions">
-      <ion-item-divider color="secondary">{{groupedSession.timeslot | customDate:'h:mm a'}}</ion-item-divider>
+  <div *ngIf="pageLoaded">
+    <div *ngIf="event.published">
+      <ion-item-group *ngFor="let groupedSession of groupedSessions">
+        <ion-item-divider color="secondary">{{groupedSession.timeslot | customDate:'h:mm a'}}</ion-item-divider>
         <session-list [sessions]="groupedSession.sessions" (sessionSelected)="goToDetail($event)"></session-list>
-    </ion-item-group>
+      </ion-item-group>
+    </div>
+    <p *ngIf="!event.published">
+      <coming-soon [event]="event"></coming-soon>
+    </p>
+  </div>
+  <div *ngIf="!pageLoaded">
+    <p>Loading</p>
+  </div>
 </ion-content>

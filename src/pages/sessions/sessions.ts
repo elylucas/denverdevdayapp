@@ -12,12 +12,19 @@ import _ from 'lodash';
 export class Sessions {
 
   public groupedSessions: any[];
+  public event: Event;
+  public pageLoaded = false;
 
   constructor(private nav: NavController, private dataService: DataService) {
 
   }
 
   ionViewWillEnter() {
+    this.dataService.getEvent().then((event: Event) => {
+      this.event = event;
+      this.pageLoaded = true;
+    });
+
     this.dataService.getSessions().then((sessions: Session[]) => {
       this.groupedSessions =
         _.chain(sessions)
