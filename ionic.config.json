@@ -1,6 +1,6 @@
 {
   "name": "denverdevday",
-  "app_id": "",
+  "app_id": "c899b410",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
