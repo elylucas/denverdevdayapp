@@ -5,8 +5,7 @@
 </ion-header>
 
 <ion-content>
-
-  <ion-slides pager>
+  <ion-slides pager="{{!!speaker.twitter || !!speaker.blog}}">
 
     <ion-slide>
       <img [src]="speaker.imgUrl" />
@@ -14,12 +13,15 @@
       <div class="company">{{ speaker.company }}</div>
     </ion-slide>
 
-    <ion-slide *ngIf="speaker.twitter || speaker.blog">
-      <a href="{{speaker.twitter}}" target="_system" *ngIf="speaker.twitter" tappable>
-        <ion-icon name="logo-twitter"></ion-icon></a>
-      <a href="{{speaker.blog}}" target="_system" *ngIf="speaker.blog" tappable>
-        <ion-icon name="logo-rss"></ion-icon>
-      </a>
+    <ion-slide *ngIf="speaker.twitter || speaker.blog" >
+      <div class="social-container">
+        <a href="{{speaker.twitter}}" target="_system" *ngIf="speaker.twitter" tappable>
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="{{speaker.blog}}" target="_system" *ngIf="speaker.blog" tappable>
+          <ion-icon name="logo-rss"></ion-icon>
+        </a>
+      </div>
     </ion-slide>
 
   </ion-slides>

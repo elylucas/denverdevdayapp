@@ -1,56 +1,54 @@
-
-
 speaker-detail {
-    ion-slides {
-      max-height: 150px;
-      background-color: color($colors, primary);
-      font-size: .9em;
-      color: white;
-
-      ion-slide {
-        margin-top: -12px;
-      }
-
-      img {
-        max-width: 75px !important;
-        max-height: 75px !important;
-        border-radius: 50px;
-        border: 1px solid white;
-      }
-
-      a {
+  ion-slides {
+    max-height: 150px;
+    background-color: color($colors, primary);
+    font-size: .9em;
+    color: white;
+    ion-slide {
+      margin-top: -12px;
+    }
+    img {
+      max-width: 75px !important;
+      max-height: 75px !important;
+      border-radius: 50px;
+      border: 1px solid white;
+    }
+    div.social-container {
+      display: flex;
+      justify-content: center;
+    }
+    a {
+      text-align: center;
+      width: 50px;
+      ion-icon {
         color: white;
         border: 1px solid white;
-        border-radius: 50px;
-        text-align: center;
-        padding: 10px
+        border-radius: 36px;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
       }
-      a:last-child {
-        margin-left: 40px;
-      }
-
-      .company {
-        margin-top: 2px;
-        font-size: .8em;
-      }
-    }
-
-    .bio-header {
-      color: white;
-      background-color: color($colors, secondary);
-      padding: 10px;
-    }
-
-    .bio {
-      padding: 0 10px 0 10px;
-      line-height: 1.5em;
-    }
-
-    .col-time {
-      font-size: .9em;
-    }
-
-    .time-and-room {
+    } // a:last-child {
+    //   margin-left: 40px;
+    // }
+    .company {
+      margin-top: 2px;
       font-size: .8em;
     }
+  }
+  .bio-header {
+    color: white;
+    background-color: color($colors, secondary);
+    padding: 10px;
+  }
+  .bio {
+    padding: 16px;
+    line-height: 1.5em;
+  }
+  .col-time {
+    font-size: .9em;
+  }
+  .time-and-room {
+    font-size: .8em;
+  }
 }
