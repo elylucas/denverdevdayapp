@@ -121,7 +121,7 @@ export class DataService {
   private isCacheExpired(): boolean {
     if (this.lastfetch) {
       var expDate = moment(this.lastfetch);
-      expDate.add(30, 'seconds');
+      expDate.add(300, 'seconds');
       if (expDate.isBefore(moment())) {
         console.log('Cache expired');
         return true;
