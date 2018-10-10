@@ -94,7 +94,7 @@ export class DataService {
         resolve(this.data);
       } else {
         this.http
-          .get('https://denverdevday.blob.core.windows.net/denverdevday/denverdevdaydata2018-1.json')
+          .get('https://denverdevday.blob.core.windows.net/denverdevday/denverdevdaydata2018-2.json')
           .toPromise()
           .then(data => {
             this.data = data.json();
